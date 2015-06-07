@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1000" height="200" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="块层 1" width="1000" height="200" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt20Fu2zAUBFAj6DmC7upV73+8IkhXhs2YFMWhyPeAWTV1pS+a1qTW7QYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADU+twoAAAAMKt0Z9bPAQAAIN+Z9XMAAADId2b9HAAAAPKdWT8HAACAfGfWzwEAgNl8HAy0SHdm/RwAAPZ1tAeflSO9Qz+nVboz6+cAALC3o314tujntEqv3VQ//3VgZgAAsJszv9Otn8O39NoVEblyWJ9nDIGd1X7fu3VP1M/hW3rtiohcOZzn6DODI58/dB8G9JB+3rrHM9j6uc8FjkmvXRGRK2dlve7tWl87fW1r4j5sD+me1Du8dqU+PFv0c58LHJNeuyKyVtL3m6PvdVbWY3al+5PH17/yvan7sP7S+8aq3enZe27nvLLatR69rlqsNnOfC7RKr10RWSuzfb7q5+1G9/MrZ8R9WE3HOKOv9HjtXj14pbUjueyyP80015LVZq6f0yq9dkV65s8Ex1DK7/9JH8eZme3zVT9vp5/3Oc+Snn313Z9951xaj0PkStllf5ppriWrzTz5vRC/G7i29NqVutwnOIaRSe9tqVx9nul183jOZ75+jfS6SlzLjx/mkV4f6fdW+rhFds4u+9NMcy0x8/w1YA7p9SN1ud/m7eh/K3/+nf/r3nGvPrufp89vhXnqYnWzemXXmYjIHLE/jZ9riZnnrwFzSK8feT/3h9T8vdp/59Wf1XbwUvTz5+ern89/zjvO8cisnjFDEUlHPx8/1xIzz18D5pD+7qTIT0nvcaP3U/PsP9Mzrkn6vK6Sr1k9Y4Yiks6r/el2s0edNdcSM89fA+aQXj9nrkvv8/7z1FPkavH7jPz8nzFbEUlHPx8/1xIzz18D5pBePyIism70cxGZNfr5+LmWmHn+GjCHf0H5+5c=
+  </data>
+ </layer>
+ <objectgroup name="Role" width="1000" height="200">
+  <object name="player" x="67" y="6333"/>
+ </objectgroup>
+ <objectgroup name="col" width="1000" height="200">
+  <object name="qiang" type="1" x="1" y="6337" width="3200" height="67"/>
+  <object name="qiang" type="1" x="3205" y="6340" width="429" height="52"/>
+  <object name="qiang" type="1" x="3639" y="6339" width="1677" height="82"/>
+  <object name="qiang" type="2" x="5314" y="6339">
+   <polygon points="0,0 82,-128 87,4"/>
+  </object>
+  <object name="qiang" type="1" x="5404" y="6242" width="1380" height="91"/>
+  <object name="qiangpao" type="paoruan" x="1698" y="6346">
+   <polyline points="0,0 117,-142 154,-260 125,-405 -5,-438 -602,-437 -639,-339 -493,-216 -476,-156"/>
+  </object>
+  <object x="3291" y="6367"/>
+  <object x="3331" y="6343"/>
+  <object name="test1" x="252" y="6279">
+   <polyline points="0,0 201,-58 196,-157 144,-275 13,-270 -66,-200"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="items" width="1000" height="200">
+  <object name="gold" x="599" y="6215"/>
+  <object name="gold" x="441" y="6173"/>
+  <object name="gold" x="294" y="6229"/>
+  <object name="gold" x="382" y="6228"/>
+  <object name="gold" x="444" y="6228"/>
+  <object name="gold" x="502" y="6212"/>
+  <object name="gold" x="685" y="6224"/>
+  <object name="gold" x="744" y="6220"/>
+  <object name="gold" x="800" y="6220"/>
+  <object name="gold" x="892" y="6213"/>
+  <object name="gold" x="981" y="6184"/>
+  <object name="gold" x="957" y="6111"/>
+  <object name="gold" x="839" y="6150"/>
+  <object name="gold" x="1030" y="6244"/>
+  <object name="gold" x="1135" y="6164"/>
+  <object name="gold" x="1322" y="5985"/>
+  <object name="gold" x="1212" y="5961"/>
+  <object name="gold" x="1122" y="5979"/>
+  <object name="gold" x="1208" y="6001"/>
+  <object name="gold" x="1407" y="5969"/>
+  <object name="gold" x="1521" y="5847"/>
+  <object name="gold" x="1670" y="5797"/>
+  <object name="gold" x="1668" y="5842"/>
+  <object name="gold" x="1673" y="5917"/>
+  <object name="gold" x="1674" y="5978"/>
+  <object name="gold" x="1667" y="6046"/>
+  <object name="gold" x="1670" y="6117"/>
+  <object name="gold" x="1670" y="6180"/>
+  <object name="gold" x="1671" y="6253"/>
+  <object name="gold" x="2097" y="6069"/>
+  <object name="gold" x="2130" y="6035"/>
+  <object name="gold" x="2153" y="6073"/>
+  <object name="gold" x="2412" y="6056"/>
+  <object name="gold" x="2461" y="6008"/>
+  <object name="gold" x="2485" y="6057"/>
+  <object name="gold" x="2809" y="5993"/>
+  <object name="gold" x="2763" y="6060"/>
+  <object name="gold" x="2833" y="6056"/>
+  <object name="gold" x="3094" y="6157"/>
+  <object name="gold" x="3192" y="6049"/>
+  <object name="gold" x="3228" y="6126"/>
+  <object name="gold" x="3333" y="6275"/>
+  <object name="gold" x="3395" y="6279"/>
+  <object name="gold" x="3395" y="6195"/>
+  <object name="gold" x="3350" y="6230"/>
+  <object name="gold" x="3343" y="6151"/>
+  <object name="gold" x="719" y="5949"/>
+  <object name="gold" x="721" y="5843"/>
+  <object name="gold" x="669" y="5769"/>
+  <object name="gold" x="546" y="5767"/>
+  <object name="gold" x="722" y="5544"/>
+  <object name="gold" x="1023" y="5437"/>
+  <object name="gold" x="1147" y="5497"/>
+  <object name="gold" x="2358" y="5627"/>
+  <object name="gold" x="2211" y="5624"/>
+  <object name="gold" x="2450" y="5625"/>
+  <object name="gold" x="3481" y="5574"/>
+  <object name="gold" x="3304" y="5635"/>
+  <object name="gold" x="3174" y="5741"/>
+  <object name="gold" x="3906" y="5754"/>
+  <object name="gold" x="3807" y="5759"/>
+  <object name="gold" x="3759" y="6055"/>
+  <object name="gold" x="3697" y="5977"/>
+  <object name="gold" x="3943" y="6066"/>
+  <object name="gold" x="4030" y="6160"/>
+  <object name="gold" x="4399" y="5706"/>
+  <object name="gold" x="4954" y="5773"/>
+  <object name="gold" x="4751" y="5790"/>
+  <object name="gold" x="5608" y="5840"/>
+  <object name="gold" x="5752" y="5760"/>
+ </objectgroup>
+</map>
